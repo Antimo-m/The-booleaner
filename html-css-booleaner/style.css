@@ -5,10 +5,38 @@
 .header{
     background-image: url("./img/pattern.png");
     padding: 60px;
+    background-color: aqua;}
+
+.blue{
+    color: blue;
+}
+
+.white{
+    color: white;
+    background-color: cadetblue;
+    border-collapse: collapse;
     
-    background-color: blue;
+    
+}
+
+.tbody{
+    background-color: cadetblue;
 }
 
 .grey{
-    color: blue;
+    color: grey;
+    
 }
+
+.quad{
+    width: 200px;
+    height: 200px;
+    overflow: hidden;
+   
+
+.quad img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    }
+
